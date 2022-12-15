@@ -13,7 +13,15 @@
 <summary>📌 LeetCode</summary>
 <div markdown="1">
 
-- [Easy](https://github.com/Bhinney/Algorithm_Bhinney/tree/main/LeetCode/Easy)
+- [Easy](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/LeetCode/Easy)
+
+</div>
+</details>
+<details>
+<summary>📌 Baekjoon</summary>
+<div markdown="2">
+
+- [Bronze](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
 
 </div>
 </details>
