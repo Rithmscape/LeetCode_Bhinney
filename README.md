@@ -17,11 +17,13 @@
 
 </div>
 </details>
+
 <details>
 <summary>📌 Baekjoon</summary>
 <div markdown="2">
 
 - [Bronze](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
+
 
 </div>
 </details>
