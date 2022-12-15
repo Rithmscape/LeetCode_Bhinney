@@ -1,1 +1,1 @@
-# Rithmscape-LeetCode_Bhinney
+# Algorithm_Bhinney
