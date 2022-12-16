@@ -11,7 +11,7 @@ class Solution {
         
         while (end < s.length()) {
             if (start > end) {
-                break;
+                return max;
             }
             if (!set.contains(s.charAt(end))) {
                 set.add(s.charAt(end++));
