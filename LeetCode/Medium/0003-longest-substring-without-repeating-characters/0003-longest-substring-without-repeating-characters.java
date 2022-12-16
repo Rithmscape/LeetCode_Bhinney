@@ -11,14 +11,14 @@ class Solution {
         
         while (end < s.length()) {
             if (start > end) {
-                return max;
+                break;
             }
             if (!set.contains(s.charAt(end))) {
                 set.add(s.charAt(end++));
                 max = Math.max(max, end - start);
-            } else {
-                set.remove(s.charAt(start++));
+                continue;
             }
+            set.remove(s.charAt(start++));
         }
         
         return max;
