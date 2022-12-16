@@ -16,9 +16,9 @@ class Solution {
             if (!set.contains(s.charAt(end))) {
                 set.add(s.charAt(end++));
                 max = Math.max(max, end - start);
-                continue;
+            } else {
+                set.remove(s.charAt(start++));
             }
-            set.remove(s.charAt(start++));
         }
         
         return max;
