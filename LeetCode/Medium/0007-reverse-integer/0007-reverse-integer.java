@@ -1,23 +1,24 @@
+import java.lang.StringBuilder;
+
 class Solution {
     public int reverse(int x) {
+        try {
+            String str;
+            StringBuilder sb;
         
-        /* 반환할 result 선언 */
-        int result = 0;
-        
-        /* 반복문 */
-        while(x != 0) {
+            if (x < 0) {
+                x = Math.abs(x);
+                str = Integer.toString(x);
+                sb = new StringBuilder(str);
             
-            int check = result * 10 + x % 10;
-            
-            if ((check - x % 10) / 10 != result) {
-                return 0;
+                return -Integer.parseInt(sb.reverse().toString());
             }
-            
-            x /= 10;
-            
-            result = check;
-        }
+            str = Integer.toString(x);
+            sb = new StringBuilder(str);
         
-        return result;
+            return Integer.parseInt(sb.reverse().toString());
+        } catch (NumberFormatException e) {
+            return 0;
+        }
     }
 }
