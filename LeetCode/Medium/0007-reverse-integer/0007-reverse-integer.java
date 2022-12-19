@@ -13,7 +13,7 @@ class Solution {
 						 */ 
             int check = result * 10 + x % 10;
             
-						/*  검산 */ 
+						/*  검산 */             
             if ((check - x % 10) / 10 != result) {
                 return 0;
             }
