@@ -1,30 +1,35 @@
 class Solution {
     public int myAtoi(String s) {
-      String str = s.stripLeading().split("\\s+")[0];
+        s = s.stripLeading().split(" ")[0];
+		System.out.println(s);
 
-        if (str.length() == 0) {
-            return 0;
-        } else if (str.charAt(0) == '+') {
-            return convert(str.substring(1), false);
-        } else if (str.charAt(0) == '-') {
-            return convert(str.substring(1), true);
-        } else if (Character.isDigit(str.charAt(0))) {
-            return convert(str, false);
-        } else {
-            return 0;
-        }  
-    }
-    public static int convert(String s, boolean isNegative) {
-        long value = 0;
+		if (s.length() == 0) {return 0;}
 
-        for (int idx = 0; idx < s.length() && Character.isDigit(s.charAt(idx)); idx++) {
-            value = value * 10 + Character.getNumericValue(s.charAt(idx));
+		String result = "";
 
-            if (value > Integer.MAX_VALUE) {
-                return isNegative ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-            }
-        }
+		char ch = s.charAt(0);
+		boolean isPositive = true;
+		if (ch == '-') {
+			isPositive = false;
+			s = s.substring(1);
+		} else if (ch == '+') {
+			s = s.substring(1);
+		} else if(!Character.isDigit(ch)) {
+			return 0;
+		}
 
-        return (int) (isNegative ? -value : value);
+		for (int i = 0; i < s.length() && Character.isDigit(s.charAt(i)); i++) {
+			result += String.valueOf(s.charAt(i));
+
+			if (Long.valueOf(result) > Integer.MAX_VALUE || Long.valueOf(result) < Integer.MIN_VALUE) {
+				return isPositive? Integer.MAX_VALUE : Integer.MIN_VALUE;
+			}
+		}
+
+		if (result.length() == 0) {
+			return 0;
+		}
+
+		return isPositive? Integer.valueOf(result) : Integer.valueOf(result) * -1;
     }
 }
