@@ -1,7 +1,6 @@
 class Solution {
     public int myAtoi(String s) {
         s = s.stripLeading().split(" ")[0];
-		System.out.println(s);
 
 		if (s.length() == 0) {return 0;}
 
