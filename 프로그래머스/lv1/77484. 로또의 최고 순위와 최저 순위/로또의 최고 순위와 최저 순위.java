@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Solution {
-    public static int[] solution(int[] lottos, int[] win_nums) {
+   public static int[] solution(int[] lottos, int[] win_nums) {
 		int[] answer = new int[2];
 
 		ArrayList<Integer> lotto = new ArrayList<>();
@@ -21,14 +21,9 @@ class Solution {
 		}
 
 		int cnt = (int)lotto.stream().filter(n -> n == 0).count();
-
-		if (cnt > 0) {
-			answer[0] = getRank(count + cnt);
-			answer[1] = getRank(count);
-		} else {
-			answer[0] = getRank(count);
-			answer[1] = getRank(count);
-		}
+		
+		answer[0] = getRank(count + cnt);
+		answer[1] = getRank(count);
 
 
 		return answer;
