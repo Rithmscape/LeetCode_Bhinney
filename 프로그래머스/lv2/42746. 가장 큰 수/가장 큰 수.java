@@ -1,17 +1,27 @@
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 class Solution {
    public static String solution(int[] numbers) {
-		String answer = IntStream.of(numbers)
-			.mapToObj(String::valueOf)
-			.sorted((n1, n2) -> (n2+n1).compareTo(n1+n2))
-			.collect(Collectors.joining());
-       
-       if (answer.charAt(0) == '0') {
+		List<String> list = new ArrayList<>();
+
+		for (int i : numbers) {
+			list.add(String.valueOf(i));
+		}
+
+		Collections.sort(list, (n1, n2) -> (n2+n1).compareTo(n1+n2));
+
+		StringBuilder sb = new StringBuilder();
+
+		if (list.get(0).charAt(0) == '0') {
 			return "0";
 		}
 
-       return answer;
+		for (String str : list) {
+			sb.append(str);
+		}
+
+		return sb.toString();
 	}
 }
