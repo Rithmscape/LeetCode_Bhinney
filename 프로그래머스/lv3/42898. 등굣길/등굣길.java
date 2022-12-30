@@ -19,10 +19,10 @@ class Solution {
 					continue;
 				}
 
-				if (dp[i - 1][j] > 0) {
+				if (i != 1) {
 					dp[i][j] += dp[i - 1][j] % num;
 				}
-				if (dp[i][j - 1] > 0) {
+				if (j != 1) {
 					dp[i][j] += dp[i][j-1] % num;
 				}
 			}
