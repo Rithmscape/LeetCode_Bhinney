@@ -35,8 +35,7 @@ class Solution {
 				}
 
 				if (set[i].contains(number)) {
-					answer = i;
-					return  answer;
+					return i;
 				}
 			}
 		}
