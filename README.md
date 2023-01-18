@@ -10,20 +10,38 @@
 
 ### 🐈 Solved Problem
 <details>
-<summary>📌 LeetCode</summary>
-<div markdown="1">
+<summary>📌 Leet Code</summary>
+<p>
 
 - [Easy](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/LeetCode/Easy)
+- [Medium](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/LeetCode/Medium)
+- [Hard](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/LeetCode/Hard)
 
-</div>
+</p>
 </details>
 
 <details>
 <summary>📌 Baekjoon</summary>
-<div markdown="2">
+<p>
 
 - [Bronze](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
+- [Gold](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Gold)
 
-
-</div>
+</p>
 </details>
+
+<details>
+<summary>📌 Programmers</summary>
+<p>
+
+- [Lv 1](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1)
+- [Lv 2](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2)
+- [Lv 3](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3)
+- [Lv 4](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv4)
+- [Unrated](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/unrated)
+
+</p>
+</details>
+
+***
+
