@@ -25,6 +25,7 @@
 <p>
 
 - [Bronze](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
+- [Silver](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Silver)
 - [Gold](https://github.com/Rithmscape/Algorithm_Bhinney/tree/main/%EB%B0%B1%EC%A4%80/Gold)
 
 </p>
