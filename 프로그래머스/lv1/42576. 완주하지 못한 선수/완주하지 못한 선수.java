@@ -12,12 +12,13 @@ class Solution {
 			map.put(s, map.getOrDefault(s, 0) - 1);
 		}
 
-		for (int i = 0; i < participant.length; i++) {
-			if (map.get(participant[i]) > 0) {
-				return participant[i];
+		String answer = "";
+		for (String s : map.keySet()) {
+			if (map.get(s) > 0) {
+				answer = s;
 			}
 		}
 
-		return "";
+		return answer;
 	}
 }
