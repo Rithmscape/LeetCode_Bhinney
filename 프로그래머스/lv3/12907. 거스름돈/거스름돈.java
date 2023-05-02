@@ -4,7 +4,7 @@ class Solution {
         dp[0] = 1;
         
         for (int c : money) {
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i < n + 1; i++) {
 				if (i - c >= 0) {
 					dp[i] += dp[i - c];
 				}
