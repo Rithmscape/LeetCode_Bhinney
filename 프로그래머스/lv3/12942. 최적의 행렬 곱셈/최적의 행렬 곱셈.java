@@ -18,16 +18,12 @@ class Solution {
                     dp[a][b] = 0;
                 } else{
                     for(int k = a; k < b; k++){
-                        dp[a][b] = min(dp[a][b], dp[a][k] + dp[k+1][b] + matrix[a][0] * matrix[k][1] * matrix[b][1]);
+                        dp[a][b] = Math.min(dp[a][b], dp[a][k] + dp[k+1][b] + matrix[a][0] * matrix[k][1] * matrix[b][1]);
                     }
                 }
             } 
         }
         
         return dp[0][len - 1];
-    }
-    
-     private int min(int a, int b){
-        return a < b ? a : b;
     }
 }
