@@ -18,10 +18,6 @@ class Solution {
     private int getGcd(int x, int y) {
         int z = x % y;
         
-        if(z == 0) {
-            return y;
-        } else {
-            return getGcd(y, z);
-        }
+        return (z == 0) ? y : getGcd(y, z);
     }
 }
