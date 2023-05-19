@@ -5,9 +5,7 @@ class Solution {
         char[] arr = s.toCharArray();
         Stack<Character> stack = new Stack<>();
         
-        for (int i = 0; i < arr.length; i++) {
-            char target = arr[i];
-            
+        for (char target : arr) {            
             if (!stack.isEmpty() && stack.peek() == target) {
                 stack.pop();
             } else {
