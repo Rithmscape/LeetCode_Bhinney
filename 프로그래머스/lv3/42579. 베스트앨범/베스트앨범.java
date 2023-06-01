@@ -13,10 +13,11 @@ class Solution {
         List<String> order = new ArrayList<>(map.keySet());
         order.sort((o1, o2) -> map.get(o2).compareTo(map.get(o1)));
         
+        /* 장르별 가장 많이 재생된 노래 리스트에 담기 */
         List<Music> music = new ArrayList<>();
         for (String g: order) {
             ArrayList<Music> list = new ArrayList<>();
-            for(int i=0; i<genres.length; i++){
+            for(int i = 0; i < genres.length; i++){
                 if(genres[i].equals(g)){
                     list.add(new Music(g, i, plays[i]));
                 }
