@@ -12,12 +12,12 @@ class Solution {
          while (!que.isEmpty()) {
             for (int i = 0; i < priorities.length; i++) {
                 if (priorities[i] == que.peek()) {
+                    answer++;
                     if (i == location) {
-                        answer++;
+                        
                         return answer;
                     }   
                     que.poll();
-                    answer++;
                 }
             }
         }
