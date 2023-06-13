@@ -14,7 +14,7 @@ class Solution {
                 answer[0] = i % n + 1;
                 answer[1] = i / n + 1;
                 
-                return answer;
+                break;
             }
             
             list.add(now);
