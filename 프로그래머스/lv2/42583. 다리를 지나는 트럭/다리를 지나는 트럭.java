@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(int length, int weight, int[] truck) {
-        int ans = 0;
+        int ans = length;
         int w = 0;
         Queue<Integer> q = new LinkedList<>();
         
@@ -30,6 +30,6 @@ class Solution {
         }
         
         
-        return ans + length;
+        return ans;
     }
 }
