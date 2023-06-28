@@ -13,8 +13,7 @@ class Solution {
         for (String city : cities) {
             city = city.toLowerCase();
             
-            if (cache.contains(city)) {
-                cache.remove(city);
+            if (cache.remove(city)) {
                 ans += 1;
             } else {
                 if(cache.size() >= size) {
