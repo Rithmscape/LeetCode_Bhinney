@@ -12,14 +12,12 @@ class Solution {
             }
         });
         
-        List<Integer> res = new ArrayList<>();
+        Set<Integer> res = new LinkedHashSet<>();
         for (String a : str) {
             String[] tmp = a.split(",");
             
             for (int i = 0; i < tmp.length; i++) {
-                if (!res.contains(Integer.parseInt(tmp[i]))) {
-                    res.add(Integer.parseInt(tmp[i]));
-                }
+                res.add(Integer.parseInt(tmp[i]));
             }
         }
         
