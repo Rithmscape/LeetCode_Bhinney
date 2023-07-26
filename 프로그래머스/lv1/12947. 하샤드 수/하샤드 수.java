@@ -1,9 +1,6 @@
-import java.util.Arrays;
-
 class Solution {
     public static boolean solution(int x) {
-		String[] arr = String.valueOf(x).split("");
-		int h = Arrays.stream(arr).mapToInt(Integer::parseInt).sum();
-		return x % h == 0 ? true : false;
+		int h = String.valueOf(x).chars().map(Character::getNumericValue).sum();
+		return x % h == 0;
 	}
 }
