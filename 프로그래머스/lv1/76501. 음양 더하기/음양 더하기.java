@@ -1,13 +1,10 @@
-import java.util.stream.*;
-
 class Solution {
     public int solution(int[] abs, boolean[] signs) {
+        int ans = 0;
         for (int i = 0; i < signs.length; i++) {
-            if (!signs[i]) {
-                abs[i] *= -1;
-            }
+          ans += (signs[i]) ? abs[i] : -abs[i];
         }
         
-        return IntStream.of(abs).sum();
+        return ans;
     }
 }
