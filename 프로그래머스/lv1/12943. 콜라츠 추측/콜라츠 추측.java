@@ -1,11 +1,7 @@
 class Solution {
     public int solution(long num) {
         int cnt = 0;
-        while (num > 0) {
-            if (num == 1) {
-                break;
-            }
-            
+        while (num != 1) {
             if (num % 2 == 0) {
                 cnt++;
                 num /= 2;
