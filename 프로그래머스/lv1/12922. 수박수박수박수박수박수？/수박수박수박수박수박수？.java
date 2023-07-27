@@ -1,10 +1,11 @@
-import java.util.Arrays;
-import java.util.stream.*;
-
 class Solution {
     public String solution(int n) {
-        String[] arr = new String[n / 2 + 1];
-        Arrays.fill(arr, "수박");
-        return Arrays.stream(arr).collect(Collectors.joining()).substring(0, n);
+        StringBuilder sb = new StringBuilder();
+        
+        for (int i = 1; i < n + 1; i++) {
+            sb.append(i % 2 != 0 ? "수" : "박");
+        }
+        
+        return sb.toString();
     }
 }
