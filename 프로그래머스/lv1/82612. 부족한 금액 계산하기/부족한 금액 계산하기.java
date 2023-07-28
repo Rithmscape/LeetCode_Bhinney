@@ -6,11 +6,7 @@ class Solution {
         for (int i = 1; i <= count; i++) {
             sum += (price * i);
         }
-        
-        if (sum > money) {
-            ans = sum - money;
-        }
 
-        return ans;
+        return sum > money ? sum - money : 0;
     }
 }
