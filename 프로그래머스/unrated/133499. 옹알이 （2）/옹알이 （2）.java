@@ -11,10 +11,9 @@ class Solution {
 				continue;
 			}
 
-			b = b.replace(possible[0], " ");
-			b = b.replace(possible[1], " ");
-			b = b.replace(possible[2], " ");
-			b = b.replace(possible[3], " ");
+			for (String p : possible) {
+				b = b.replace(p, " ");
+			}
 			b = b.replace(" ", "");
 
 			if (b.length() == 0) ans++;
