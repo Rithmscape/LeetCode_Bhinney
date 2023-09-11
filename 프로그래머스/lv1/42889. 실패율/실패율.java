@@ -16,7 +16,7 @@ class Solution {
 			}
 		}
 
-		/* 각 스테이지 별 실패율 담을 배열*/
+		/* 각 스테이지 별 실패율 담을 Map*/
 		Map<Integer, Double> fail = new HashMap<>();
 		for (int i = 1; i < success.length; i++) {
 			if (success[i - 1] == 0) {
