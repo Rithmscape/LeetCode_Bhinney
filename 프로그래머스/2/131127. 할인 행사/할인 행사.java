@@ -11,15 +11,14 @@ class Solution {
 		}
 
 		/* 만약에 디스카운트에 해당하는 물품이 없을 경우 0을 리턴 */
-		List<String> list = new ArrayList<>(map.keySet());
 		List<String> disList = new ArrayList<>(Arrays.asList(discount));
-		for (String l : list) {
-			if (!disList.contains(l)) {
+		for (String w : want) {
+			if (!disList.contains(w)) {
 				return ans;
 			}
 		}
 
-		for (int i = 0; i <= discount.length - 10; i++) {
+        for (int i = 0; i <= discount.length - 10; i++) {
 			List<String> dList = disList.subList(i, i + 10);
 			boolean buy = true;
 			for (String w : want) {
