@@ -38,7 +38,8 @@ class Solution {
 					y--;
 				}
 
-				arr[x][y] = num++;
+				arr[x][y] = num;
+                num++;
 			}
 		}
 
