@@ -1,10 +1,10 @@
 # [level unrated] 문자열안에 문자열 - 120908 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120908) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120908?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 72.6 MB, 시간: 0.03 ms
+메모리: 60.3 MB, 시간: 7.45 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 3일 20:51:33
+2023년 11월 3일 20:56:41
 
 ### 문제 설명
 
