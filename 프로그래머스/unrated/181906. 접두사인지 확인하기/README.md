@@ -1,10 +1,10 @@
 # [level unrated] 접두사인지 확인하기 - 181906 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 71 MB, 시간: 0.02 ms
+메모리: 61.7 MB, 시간: 7.99 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 3일 20:9:49
+2023년 11월 3일 20:11:47
 
 ### 문제 설명
 
