@@ -1,10 +1,10 @@
 # [level unrated] 대문자로 바꾸기 - 181877 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 72.9 MB, 시간: 0.02 ms
+메모리: 59.6 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 3일 20:22:22
+2023년 11월 3일 20:22:43
 
 ### 문제 설명
 
