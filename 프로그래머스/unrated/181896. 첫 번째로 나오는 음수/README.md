@@ -1,10 +1,10 @@
 # [level unrated] 첫 번째로 나오는 음수 - 181896 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181896) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181896?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 78.8 MB, 시간: 3.33 ms
+메모리: 60.8 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 4일 18:57:14
+2023년 11월 4일 19:1:38
 
 ### 문제 설명
 
