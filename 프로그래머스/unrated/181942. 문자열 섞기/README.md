@@ -1,10 +1,10 @@
 # [level unrated] 문자열 섞기 - 181942 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 77.4 MB, 시간: 0.10 ms
+메모리: 59.8 MB, 시간: 11.33 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 1일 11:2:58
+2023년 12월 1일 11:6:1
 
 ### 문제 설명
 
