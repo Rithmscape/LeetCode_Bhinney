@@ -1,10 +1,10 @@
 # [level unrated] 공배수 - 181936 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 71.2 MB, 시간: 0.01 ms
+메모리: 61.5 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 2일 10:8:40
+2023년 12월 2일 10:10:3
 
 ### 문제 설명
 
