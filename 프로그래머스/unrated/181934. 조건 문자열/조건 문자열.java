@@ -1,14 +1,14 @@
 class Solution {
-    public int solution(String ineq, String eq, int n, int m) {
-        boolean check = true;
+   public int solution(String ineq, String eq, int n, int m) {
+      int ans = -1;
 
-		switch (ineq + eq) {
-			case ">=" -> check = n >= m;
-			case ">!" -> check = n > m;
-			case "<=" -> check = n <= m;
-			case "<!" -> check = n < m;
-		}
+      switch (ineq + eq) {
+         case ">=" -> ans = n >= m ? 1 : 0;
+         case ">!" -> ans = n > m ? 1 : 0;
+         case "<=" -> ans = n <= m ? 1 : 0;
+         case "<!" -> ans = n < m ? 1 : 0;
+      }
 
-		return check ? 1 : 0;
-    }
+      return ans;
+   }
 }
