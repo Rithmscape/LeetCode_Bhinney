@@ -1,10 +1,10 @@
 # [level unrated] 조건 문자열 - 181934 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181934) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181934?language=java) 
 
 ### 성능 요약
 
-메모리: 76.2 MB, 시간: 0.02 ms
+메모리: 77.6 MB, 시간: 1.69 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 2일 10:35:3
+2023년 12월 2일 10:44:15
 
 ### 문제 설명
 
