@@ -1,10 +1,10 @@
 # [level unrated] 코드 처리하기 - 181932 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181932) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181932?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 72.1 MB, 시간: 0.03 ms
+메모리: 62.9 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 2일 19:29:11
+2023년 12월 2일 19:36:52
 
 ### 문제 설명
 
