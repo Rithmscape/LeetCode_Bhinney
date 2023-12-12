@@ -1,10 +1,10 @@
 # [level unrated] 원소들의 곱과 합 - 181929 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181929?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181929?language=java) 
 
 ### 성능 요약
 
-메모리: 61.9 MB, 시간: 13.80 ms
+메모리: 71.6 MB, 시간: 1.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 2일 20:48:44
+2023년 12월 2일 20:50:36
 
 ### 문제 설명
 
