@@ -1,10 +1,10 @@
 # [level unrated] 수 조작하기 2 - 181925 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181925?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181925?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 94.4 MB, 시간: 9.39 ms
+메모리: 69.7 MB, 시간: 45.82 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 3일 18:56:25
+2023년 12월 3일 19:0:55
 
 ### 문제 설명
 
