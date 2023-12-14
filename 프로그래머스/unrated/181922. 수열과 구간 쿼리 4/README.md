@@ -1,10 +1,10 @@
 # [level unrated] 수열과 구간 쿼리 4 - 181922 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181922?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181922?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 82.1 MB, 시간: 1.78 ms
+메모리: 61.3 MB, 시간: 9.75 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 4일 17:59:19
+2023년 12월 4일 18:12:32
 
 ### 문제 설명
 
