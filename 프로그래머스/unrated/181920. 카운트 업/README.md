@@ -1,10 +1,10 @@
 # [level unrated] 카운트 업 - 181920 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181920) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181920?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 75.5 MB, 시간: 1.62 ms
+메모리: 61.5 MB, 시간: 7.27 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 4일 19:33:52
+2023년 12월 4일 19:36:24
 
 ### 문제 설명
 
