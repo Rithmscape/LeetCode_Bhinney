@@ -1,10 +1,10 @@
 # [level unrated] 배열 만들기 4 - 181918 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181918?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181918?language=java) 
 
 ### 성능 요약
 
-메모리: 62.8 MB, 시간: 10.01 ms
+메모리: 89.2 MB, 시간: 6.39 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 5일 19:43:24
+2023년 12월 5일 19:46:16
 
 ### 문제 설명
 
