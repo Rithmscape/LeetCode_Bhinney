@@ -1,10 +1,10 @@
 # [level unrated] 문자열 여러 번 뒤집기 - 181913 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181913?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181913?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 76.9 MB, 시간: 2.79 ms
+메모리: 66.5 MB, 시간: 28.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 3일 9:59:34
+2023년 12월 3일 10:7:20
 
 ### 문제 설명
 
