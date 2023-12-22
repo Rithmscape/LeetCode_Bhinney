@@ -1,10 +1,10 @@
 # [level unrated] 문자열 뒤집기 - 181905 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181905) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181905?language=java) 
 
 ### 성능 요약
 
-메모리: 60.9 MB, 시간: 8.94 ms
+메모리: 78.5 MB, 시간: 13.30 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 12월 5일 18:45:20
+2023년 12월 5일 18:47:48
 
 ### 문제 설명
 
