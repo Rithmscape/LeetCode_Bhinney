@@ -1,10 +1,10 @@
 # [level unrated] 글자 지우기 - 181900 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181900?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181900?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 84.9 MB, 시간: 0.69 ms
+메모리: 62.8 MB, 시간: 15.55 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 21:44:20
+2024년 1월 2일 21:48:31
 
 ### 문제 설명
 
