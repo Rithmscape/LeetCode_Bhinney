@@ -1,10 +1,10 @@
 # [level unrated] 카운트 다운 - 181899 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181899?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181899?language=java) 
 
 ### 성능 요약
 
-메모리: 61.6 MB, 시간: 12.50 ms
+메모리: 77.7 MB, 시간: 6.88 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 3일 20:59:18
+2024년 1월 3일 21:1:15
 
 ### 문제 설명
 
