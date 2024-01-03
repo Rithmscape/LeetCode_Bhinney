@@ -1,10 +1,10 @@
 # [level unrated] 2의 영역 - 181894 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181894) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181894?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 89.6 MB, 시간: 15.26 ms
+메모리: 78.9 MB, 시간: 19.77 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 3일 22:52:49
+2024년 1월 3일 23:1:4
 
 ### 문제 설명
 
