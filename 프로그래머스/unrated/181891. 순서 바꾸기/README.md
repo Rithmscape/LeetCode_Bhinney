@@ -1,10 +1,10 @@
 # [level unrated] 순서 바꾸기 - 181891 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181891?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181891?language=java) 
 
 ### 성능 요약
 
-메모리: 61.9 MB, 시간: 16.59 ms
+메모리: 75.3 MB, 시간: 4.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 4일 20:36:59
+2024년 1월 4일 20:44:8
 
 ### 문제 설명
 
