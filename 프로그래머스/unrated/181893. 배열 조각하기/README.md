@@ -1,10 +1,10 @@
 # [level unrated] 배열 조각하기 - 181893 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 78 MB, 시간: 0.11 ms
+메모리: 64 MB, 시간: 16.51 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 4일 17:44:13
+2024년 1월 4일 17:52:49
 
 ### 문제 설명
 
