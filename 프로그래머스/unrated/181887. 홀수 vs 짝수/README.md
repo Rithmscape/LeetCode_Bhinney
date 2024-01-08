@@ -1,10 +1,10 @@
 # [level unrated] 홀수 vs 짝수 - 181887 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181887) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181887?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 76.8 MB, 시간: 2.37 ms
+메모리: 61.9 MB, 시간: 6.29 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 1일 19:59:28
+2024년 1월 1일 20:5:41
 
 ### 문제 설명
 
