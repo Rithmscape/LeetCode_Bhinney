@@ -1,10 +1,10 @@
 # [level unrated] 정수 부분 - 181850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 66.4 MB, 시간: 0.03 ms
+메모리: 60.6 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 13:0:7
+2024년 1월 2일 13:1:12
 
 ### 문제 설명
 
