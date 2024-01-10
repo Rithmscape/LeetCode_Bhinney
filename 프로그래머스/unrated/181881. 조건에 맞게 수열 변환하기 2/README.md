@@ -1,10 +1,10 @@
 # [level unrated] 조건에 맞게 수열 변환하기 2 - 181881 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181881) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181881?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 68.6 MB, 시간: 0.02 ms
+메모리: 63.4 MB, 시간: 27.41 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 3일 14:27:51
+2024년 1월 3일 14:59:17
 
 ### 문제 설명
 
