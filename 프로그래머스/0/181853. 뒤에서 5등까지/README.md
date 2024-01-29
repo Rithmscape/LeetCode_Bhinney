@@ -1,10 +1,10 @@
 # [level 0] 뒤에서 5등까지 - 181853 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 73.6 MB, 시간: 2.29 ms
+메모리: 63.6 MB, 시간: 19.49 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 1일 20:21:26
+2024년 1월 1일 20:24:23
 
 ### 문제 설명
 
