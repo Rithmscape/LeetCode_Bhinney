@@ -1,16 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 class Solution {
     public int[] solution(int[] arr) {
-        List<Integer> ans = new ArrayList<>();
-		
-		for (int n : arr) {
-			for (int i = 0; i < n; i++) {
-				ans.add(n);
-			}
+        StringBuilder ans = new StringBuilder();
+		for (int i : arr) {
+			ans.append(String.valueOf(i + ":").repeat(i));
 		}
 		
-		return ans.stream().mapToInt(i -> i).toArray();
+		return Arrays.stream(ans.toString().split(":")).mapToInt(Integer::parseInt).toArray();
     }
 }
