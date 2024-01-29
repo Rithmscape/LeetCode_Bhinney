@@ -1,10 +1,10 @@
 # [level 0] ad 제거하기 - 181870 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870?language=java) 
 
 ### 성능 요약
 
-메모리: 61.5 MB, 시간: 7.25 ms
+메모리: 80.2 MB, 시간: 1.95 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 1일 19:30:28
+2024년 1월 1일 19:33:7
 
 ### 문제 설명
 
