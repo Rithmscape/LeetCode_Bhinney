@@ -1,10 +1,10 @@
 # [level 0] 문자열 바꿔서 찾기 - 181864 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181864) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181864?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 75.2 MB, 시간: 0.14 ms
+메모리: 61.3 MB, 시간: 14.90 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 18:16:57
+2024년 1월 2일 18:20:35
 
 ### 문제 설명
 
