@@ -1,10 +1,10 @@
 # [level 0] 세 개의 구분자 - 181862 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181862?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181862?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 113 MB, 시간: 23.36 ms
+메모리: 78.4 MB, 시간: 37.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 18:27:41
+2024년 1월 2일 18:31:48
 
 ### 문제 설명
 
