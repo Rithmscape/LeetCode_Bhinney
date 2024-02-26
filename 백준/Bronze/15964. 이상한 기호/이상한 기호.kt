@@ -1,6 +1,6 @@
 fun main() = with(System.`in`.bufferedReader()) {
     val arr = readLine().split(" ")
-    println(calculate(arr[0].toInt(), arr[1].toInt()))
+    println(calculate(arr[0].toLong(), arr[1].toLong()))
 }
 
-private fun calculate(a : Int, b : Int) : Int = (a + b) * (a - b)
+private fun calculate(a : Long, b : Long) : Long = (a + b) * (a - b)
