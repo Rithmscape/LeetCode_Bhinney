@@ -5,12 +5,7 @@ fun main() = with(System.`in`.bufferedReader()) {
     val arr = readLine().split(" ").map { it.toInt() }.toIntArray()
     val dp = IntArray(n) { Int.MIN_VALUE }
     dp[0] = arr[0]
-    calculate(arr, dp, n - 1)
+    for (i in 1 .. arr.lastIndex)
+        dp[i] = max(dp[i - 1] + arr[i], arr[i])
     println(dp.max())
-}
-private fun calculate(arr : IntArray, dp : IntArray, n : Int) : Int {
-    if (dp[n] == Int.MIN_VALUE) 
-        dp[n] = max(calculate(arr, dp, n - 1) + arr[n], arr[n])
-
-    return dp[n]
 }
